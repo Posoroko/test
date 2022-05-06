@@ -12,9 +12,8 @@
     box-sizing: border-box;
 }
 body{
-    
-    
-    
+    width: 100vw;
+    height: 100vh;
 }
 h1{
     width: 100px;
@@ -26,9 +25,31 @@ h1{
     margin: 20px 10px;
 }
 .red{
-    border: 1px solid red;
+    border-radius: 20px;
 }
 
 #blue{
     border: 1px solid blue;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+.hello{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    background-color: teal;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
 }
